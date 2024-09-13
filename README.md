@@ -26,3 +26,7 @@ Se obtiene calculando la complejidad de cada una de sus etapas y luego combinand
 ## 6
 
 Si el algoritmo divide el problema de forma recursiva, se ve la condición que debe cumplir para que no se resuelva recursivamente, es decir, el caso base. Después se tiene la recursión que divide el problema en x cantidad de subproblemas de tamaño n/q en un problema de tamaño a<n. Así, se calcula el Teorema del maestro como T(n) = x*T(n/q) + C*(n^r), y dependiendo de los valores de p y q^r, se obtienen notaciones big O que dan cuenta de la complejidad de un programa.
+
+# Explicación del código
+
+En el código se aprecian dos formas para contar el número de caminos posibles en una PCB de tamaño NxM desde la esquina inferior izquierda hasta la esquina superior derecha, si devolverse. El método primero es iterativo y utiliza una pila para explorar las celdas posibles, añadiendo celdas adyacentes a la pila y contando las rutas cuando se alcanza el destino. El segundo es recursivo y calcula el número de caminos sumando los caminos posibles desde las celdas adyacentes (arriba e izquierda) hasta llegar al destino. Después, se incorpora un decorador para medir el tiempo de ejecución de cada método, permitiendo comparar el rendimiento de ambos enfoques. Por comparación de los resultados, se puede decir que el recursivo es más eficiente que el iterativo.
