@@ -15,7 +15,7 @@ Es un enfoque para organizar programas modulares, representando conceptos del mu
 
 La recursividad es que una función se llama a sí misma hasta alcanzar una condición base, mientras que la iteración repite un bloque de código hasta que se cumple una condición de parada. La notación big O puede verse como un calculo de la eficiencia del problema en términos de tiempo. La complejidad de la recursividad puede ser más alta dependiendo del problema (en términos de Big O), mientras que la iteración tiende a ser más predecible ya que generalmente depende del tamaño de los datos en el input.
 
-##4
+## 4
 
 Un algoritmo con complejidad O(1) tiene un tiempo de ejecución constante, lo que significa que el tiempo no cambia aunque el tamaño de la entrada si lo haga. En cambio, un algoritmo O(n) tiene un tiempo de ejecución que crece de manera lineal con el tamaño de los datos.
 
