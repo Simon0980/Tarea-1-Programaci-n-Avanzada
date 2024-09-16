@@ -21,7 +21,7 @@ Un algoritmo con complejidad O(1) tiene un tiempo de ejecución constante, lo qu
 
 ## 5 
 
-Se obtiene calculando la complejidad de cada una de sus etapas y luego combinando esos resultados.
+Se obtiene calculando la complejidad de cada una de sus etapas por separado y se obtiene la que es de mayor orden, por ejemplo, si una etapa es O(n) y otra es O(n^2), el programa tendrá una complejidad de O(n^2), ya que este término domina a largo plazo. Además de ignorar constantes, O(a*n) con a cte. se convierte en O(n).
 
 ## 6
 
